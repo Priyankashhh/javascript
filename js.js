@@ -154,5 +154,96 @@ for (let i = 0; i <= fr.length; i++) {
 */
 
 //ch 4 practiceset4
-let name = "Priyanka";
-console.log(name.toLowerCase());
+//1
+
+// let name = "Priyanka is my name";
+/*console.log(name.toLowerCase());
+ */
+
+// console.log(name.slice(2, 4));
+// console.log(name.replace("yanka", "bhav"));
+// let surname = "Sharma";
+// console.log(name.concat(surname));
+// console.log(name.trim("nka"));
+
+//2 include
+/*const sentence = "The quick brown fox jumps over the lazy dog.";
+
+const word = "fox";
+console.log(sentence.includes(word));
+
+console.log(
+	`The word "${word}" ${
+		sentence.includes(word) ? "is" : "is not"
+	} in the sentence`
+);*/
+// Expected output: "The word "fox" is in the sentence"
+
+//startsWith
+
+// console.log(name.startsWith("Priyanka", 2));
+//Q4
+/*let string = "Please give rs 1000";
+let amount = string.slice("Please give rs ".length);
+amount = Number.parseInt(amount);
+console.log(typeof amount);*/
+
+//Array
+
+let friends = ["Priyanka", "Rahul", "Aman", "Rakul", "aditya", "Lalit"];
+friends[3] = "himanshu";
+for (let i = 0; i < friends.length; i++) {
+	console.log(friends[i]);
+}
+// console.log(typeof friends);
+
+/*let dost = friends.toString();
+console.log(dost);
+console.log(typeof dost);
+let dost1 = friends.join("idk wtf ");
+console.log(dost1);*/
+/*friends.pop();
+console.log(friends);*/
+/*friends.push("hai bhgwan bchao mujhe ");*/
+// console.log(friends);
+//shift and unshift are same as pop and push
+/*p = friends.unshift(
+	"god save me suddenly its feeling all heavy again feeling lonely even when everyone is here "
+);*/
+
+// console.log(p, friends);
+
+// delete friends[0];
+// console.log(friends);
+// console.log(friends.length);
+/*
+let enemy = ["me", "myself", "i"];
+let belief = ["god", "life"];
+let group = friends.concat(enemy, belief);
+console.log(group);*/
+/*friends.sort();
+console.log(friends);
+let compare = (a, b) => {
+	return a - b;
+};
+let num = [23, 56, 7, 8, 4, 1, 77, 889];
+num.sort(compare);
+console.log(num);*/
+
+/*let num = [22, 56, 8, 77, 45, 23, 45, 7, 69];
+let del = num.splice(1, 3, 111, 222, 333, 666);
+console.log(del);*/
+
+//array.from
+/*let name = "Priyanka";
+let arr = Array.from(name);
+console.log(arr);*/
+
+// array.from of set
+let num = [7, 8, 7, 7, 1, 4, 4, 2, 8, 4];
+// for (let i of num) {
+// 	console.log(i);
+// }
+for (let i in num) {
+	console.log(i);
+}

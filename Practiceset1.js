@@ -33,3 +33,8 @@ console.log(typeof p);
 if (p > 0) {
 	alert("this is valid");
 }
+//for each loop
+let num = [1, 2, 3, 4, 5];
+num.forEach((Element) => {
+	console.log(Element * Element);
+});
