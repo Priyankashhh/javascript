@@ -190,11 +190,11 @@ console.log(typeof amount);*/
 
 //Array
 
-let friends = ["Priyanka", "Rahul", "Aman", "Rakul", "aditya", "Lalit"];
-friends[3] = "himanshu";
-for (let i = 0; i < friends.length; i++) {
-	console.log(friends[i]);
-}
+// let friends = ["Priyanka", "Rahul", "Aman", "Rakul", "aditya", "Lalit"];
+// friends[3] = "himanshu";
+// for (let i = 0; i < friends.length; i++) {
+// 	console.log(friends[i]);
+// }
 // console.log(typeof friends);
 
 /*let dost = friends.toString();
@@ -240,10 +240,86 @@ let arr = Array.from(name);
 console.log(arr);*/
 
 // array.from of set
-let num = [7, 8, 7, 7, 1, 4, 4, 2, 8, 4];
+// let num = [7, 8, 7, 7, 1, 4, 4, 2, 8, 4];
 // for (let i of num) {
 // 	console.log(i);
 // }
-for (let i in num) {
-	console.log(i);
+// for (let i in num) {
+// 	console.log(i);
+// }
+
+///map
+/*let arr = [4, 78, 90, 5];
+let jadu = arr.map((x, index, array) => {
+	console.log(x, index, array);
+	return x - 1;
+});
+console.log(jadu);*/
+/*let num = [1, 2, 3, 4, 5];
+let jadu = num.filter((x) => {
+	return x > 3;
+});
+console.log(jadu);*/
+
+//reduce
+/*let arr = [1, 2, 3, 4, 5];
+let jadu = arr.reduce((a, b) => {
+	return a + b;
+});
+console.log(jadu);*/
+
+//chapter 5
+//practice problem
+
+//1
+/*let num = [1, 2, 3, 4, 5];
+let a = prompt("Enter a number");
+a = Number.parseInt(a);
+num.push(a);
+console.log(num);*/
+
+//2
+/*let num = [1, 2, 3, 4, 5];
+let a;
+do {
+	a = prompt("Enter a number");
+	a = Number.parseInt(a);
+	num.push(a);
+} while (a != 0);
+console.log(num);*/
+
+//3
+/*
+let num = [10, 20, 32, 40, 55, 90];
+let n = num.filter((x) => {
+	return x % 10 == 0;
+});
+console.log(n);*/
+
+//4
+/*let num = [10, 20, 32, 40, 55, 90];
+const square_func = (x) => {
+	return x * x;
+};
+let n = num.map(square_func);
+console.log(n);*/
+
+//5
+/*let n = [1, 2, 3, 4, 5];
+let factorial = n.reduce((x, y) => {
+	return x * y;
+});
+console.log(factorial);*/
+
+//alert confirm prompt
+
+alert("Enter a no.");
+let a = prompt("Enter a number", "64");
+a = Number.parseInt(a);
+// document.write(a);
+let write = confirm("do  u want to write");
+if (write) {
+	document.write(a);
+} else {
+	document.write("no");
 }
