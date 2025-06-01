@@ -313,7 +313,7 @@ console.log(factorial);*/
 
 //alert confirm prompt
 
-alert("Enter a no.");
+/*alert("Enter a no.");
 let a = prompt("Enter a number", "64");
 a = Number.parseInt(a);
 // document.write(a);
@@ -322,4 +322,43 @@ if (write) {
 	document.write(a);
 } else {
 	document.write("no");
+}*/
+
+//chapter 6
+//1
+
+// if (a >= 18) {
+// 	alert("you can drive");
+// } else {
+// 	alert("sorry u cant drive");
+// }
+// console.log(a);
+let runAgain = true;
+const canDrive = (age) => {
+	return age >= 18 ? true : false;
+};
+
+while (runAgain) {
+	let age = prompt("Enter your age");
+	age = Number.parseInt(age);
+	if (age < 0) {
+		alert("invalid age");
+		console.error("please enter a valid age");
+		// break;
+	}
+	if (canDrive(age)) {
+		alert("you can drive");
+	} else {
+		alert("sorry u cant drive");
+	}
+	runAgain = confirm("do u want to play again");
+
+	console.log(age);
 }
+
+// let again = confirm("do  u want to see the prompt again");
+// if (again) {
+// 	document.again(a);
+// } else {
+// 	document.again("no");
+// }
