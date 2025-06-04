@@ -333,7 +333,7 @@ if (write) {
 // 	alert("sorry u cant drive");
 // }
 // console.log(a);
-let runAgain = true;
+/*let runAgain = true;
 const canDrive = (age) => {
 	return age >= 18 ? true : false;
 };
@@ -354,7 +354,7 @@ while (runAgain) {
 	runAgain = confirm("do u want to play again");
 
 	console.log(age);
-}
+}*/
 
 // let again = confirm("do  u want to see the prompt again");
 // if (again) {
@@ -362,3 +362,46 @@ while (runAgain) {
 // } else {
 // 	document.again("no");
 // }
+
+//dom bom
+// console.log(window);
+//can also writw window infront globally used
+/*document.write("hello world");
+window.console.log(window);
+console.log(document);
+console.log(document.body);
+document.body.style.background = "yellow";*/
+
+//doc walk
+/*console.log(document.body.firstChild);
+console.log(document.body.lastChild);
+let arr = Array.from(document.body.childNodes);
+console.log(arr);
+*/
+/*
+console.log(document.body.firstElementChild);
+a = document.body.firstElementChild;
+console.log(a.parentNode);
+console.log(a.firstElementChild.nextSibling);
+*/
+
+//element only navigation
+/*	document.body.style.background = "red";
+};
+
+let a = document.body;
+console.log("first child of a is :", a.firstChild);
+console.log("first Element child of a is :", a.firstElementChild);
+console.log(a.previousElementSibling);
+console.log(a.nextElementSibling);
+console.log(a.firstElementChild);
+console.log(a.lastElementChild);
+*/
+
+let t = document.body.firstElementChild.firstElementChild;
+console.log(t.rows);
+console.log(t.rows[0].rowIndex);
+console.log(t);
+
+console.log(t.head);
+console.log(t.foot);
