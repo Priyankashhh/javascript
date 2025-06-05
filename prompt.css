@@ -1,0 +1,22 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.nav-bar {
+	background-color: yellow;
+	justify-content: center;
+}
+.nav-bar ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-bar li {
+	list-style: none;
+	padding: 0px 28px;
+}

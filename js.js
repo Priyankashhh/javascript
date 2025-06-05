@@ -398,10 +398,74 @@ console.log(a.firstElementChild);
 console.log(a.lastElementChild);
 */
 
-let t = document.body.firstElementChild.firstElementChild;
+/*let t = document.body.firstElementChild.firstElementChild;
 console.log(t.rows);
 console.log(t.rows[0].rowIndex);
 console.log(t);
 
 console.log(t.head);
-console.log(t.foot);
+console.log(t.foot);*/
+
+//portfolio
+
+/*
+const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
+const appendAlert = (message, type) => {
+	const wrapper = document.createElement("div");
+	wrapper.innerHTML = [
+		`<div class="alert alert-${type} alert-dismissible" role="alert">`,
+		`   <div>${message}</div>`,
+		'   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+		"</div>",
+	].join("");
+
+	alertPlaceholder.append(wrapper);
+};
+
+const alertTrigger = document.getElementById("liveAlertBtn");
+if (alertTrigger) {
+	alertTrigger.addEventListener("click", () => {
+		appendAlert("Nice, you triggered this alert message!", "success");
+	});
+}
+
+//change the card title to red
+let ctitle = document.getElementsByClassName("card-title")[0];
+ctitle.style.color = "red";
+//getElementById
+
+let ctitles = document.querySelectorAll(".card-title");
+ctitles[0].style.color = "red";
+ctitles[1].style.color = "blue";
+ctitles[2].style.color = "green";
+console.log(ctitles);
+
+document.querySelector(".this").style.color = "red";
+document.querySelector(".this").style.background = "yellow";
+
+console.log(document.getElementsByTagName("a"));
+console.log(document.querySelector(".card").getElementsByTagName("a"));
+console.log(document.getElementsByName("search"));
+*/
+//khtm hogya upr tk portfolio wala
+
+//lec37
+/*let id1 = document.getElementById("id1");
+let sp1 = document.getElementById("sp1");
+console.log(id1);
+console.log(id1.matches(".class"));
+console.log(id1.matches(".box"));
+console.log(sp1.closest(".box"));
+console.log(sp1.closest("#sp1"));
+console.log(id1.contains(sp1));
+console.log(sp1.contains(id1));*/
+
+//ch7 practice set
+
+//1
+document.getElementsByTagName("ul")[0].firstElementChild.style.color = "red";
+document.getElementsByTagName("ul")[0].firstElementChild.style.color = "green";
+document.getElementsByTagName("ul")[0].lastElementChild.style.color = "green";
+Array.from(document.getElementsByTagName("li")).forEach((element) => {
+	element.style.background = "cyan";
+});
