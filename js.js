@@ -463,9 +463,26 @@ console.log(sp1.contains(id1));*/
 //ch7 practice set
 
 //1
-document.getElementsByTagName("ul")[0].firstElementChild.style.color = "red";
-document.getElementsByTagName("ul")[0].firstElementChild.style.color = "green";
-document.getElementsByTagName("ul")[0].lastElementChild.style.color = "green";
-Array.from(document.getElementsByTagName("li")).forEach((element) => {
-	element.style.background = "cyan";
-});
+// document.getElementsByTagName("ul")[0].firstElementChild.style.color = "red";
+// document.getElementsByTagName("ul")[0].firstElementChild.style.color = "green";
+// document.getElementsByTagName("ul")[0].lastElementChild.style.color = "green";
+// Array.from(document.getElementsByTagName("li")).forEach((element) => {
+// 	element.style.background = "cyan";
+// });
+
+//lec41
+// console.log(document.body.textContent);
+
+//lec42
+// let first = document.getElementById("first");
+// let a = first.getAttribute("class");
+// console.log(a);
+// console.log(first.hasAttribute("class"));
+// console.log(first.hasAttribute("style"));
+///first.setAttribute("hidden", "true");
+///first.setAttribute("class", "true Sachin");
+// console.log(first.removeAttribute("class"));
+// console.log(first.attributes);
+console.log(first.dataset);
+console.log(first.dataset.game);
+console.log(first.dataset.player);
