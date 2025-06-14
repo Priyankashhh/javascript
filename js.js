@@ -46,7 +46,6 @@ if (num % 2 == 0 && num % 3 == 0) {
 let a =
 	age > 18 ? "you are eligible to drive" : "you are not eligible to drive";
 console.log(a);*/
-
 //for loop
 //sum of n natural no.
 /*let sum = 0;
@@ -64,7 +63,6 @@ for (let i = n; i >= 1; i--) {
 	factorial = factorial * i;
 }
 console.log("fa actorial of", n, "is", factorial);*/
-
 /*const marks = {
 	Priyanka: 1,
 	srishti: 2,
@@ -145,27 +143,22 @@ let line = `${boy2} is elder  than ${boy1}`;
 console.log(line);*/
 /*let fruits = "mango's";
 console.log(fruits);*/
-
 //print a string using for loop
 /*let fr = "aman";
 for (let i = 0; i <= fr.length; i++) {
 	console.log(fr[i]);
 }
 */
-
 //ch 4 practiceset4
 //1
-
 // let name = "Priyanka is my name";
 /*console.log(name.toLowerCase());
  */
-
 // console.log(name.slice(2, 4));
 // console.log(name.replace("yanka", "bhav"));
 // let surname = "Sharma";
 // console.log(name.concat(surname));
 // console.log(name.trim("nka"));
-
 //2 include
 /*const sentence = "The quick brown fox jumps over the lazy dog.";
 
@@ -178,25 +171,20 @@ console.log(
 	} in the sentence`
 );*/
 // Expected output: "The word "fox" is in the sentence"
-
 //startsWith
-
 // console.log(name.startsWith("Priyanka", 2));
 //Q4
 /*let string = "Please give rs 1000";
 let amount = string.slice("Please give rs ".length);
 amount = Number.parseInt(amount);
 console.log(typeof amount);*/
-
 //Array
-
 // let friends = ["Priyanka", "Rahul", "Aman", "Rakul", "aditya", "Lalit"];
 // friends[3] = "himanshu";
 // for (let i = 0; i < friends.length; i++) {
 // 	console.log(friends[i]);
 // }
 // console.log(typeof friends);
-
 /*let dost = friends.toString();
 console.log(dost);
 console.log(typeof dost);
@@ -210,9 +198,7 @@ console.log(friends);*/
 /*p = friends.unshift(
 	"god save me suddenly its feeling all heavy again feeling lonely even when everyone is here "
 );*/
-
 // console.log(p, friends);
-
 // delete friends[0];
 // console.log(friends);
 // console.log(friends.length);
@@ -229,16 +215,13 @@ let compare = (a, b) => {
 let num = [23, 56, 7, 8, 4, 1, 77, 889];
 num.sort(compare);
 console.log(num);*/
-
 /*let num = [22, 56, 8, 77, 45, 23, 45, 7, 69];
 let del = num.splice(1, 3, 111, 222, 333, 666);
 console.log(del);*/
-
 //array.from
 /*let name = "Priyanka";
 let arr = Array.from(name);
 console.log(arr);*/
-
 // array.from of set
 // let num = [7, 8, 7, 7, 1, 4, 4, 2, 8, 4];
 // for (let i of num) {
@@ -247,7 +230,6 @@ console.log(arr);*/
 // for (let i in num) {
 // 	console.log(i);
 // }
-
 ///map
 /*let arr = [4, 78, 90, 5];
 let jadu = arr.map((x, index, array) => {
@@ -260,24 +242,20 @@ let jadu = num.filter((x) => {
 	return x > 3;
 });
 console.log(jadu);*/
-
 //reduce
 /*let arr = [1, 2, 3, 4, 5];
 let jadu = arr.reduce((a, b) => {
 	return a + b;
 });
 console.log(jadu);*/
-
 //chapter 5
 //practice problem
-
 //1
 /*let num = [1, 2, 3, 4, 5];
 let a = prompt("Enter a number");
 a = Number.parseInt(a);
 num.push(a);
 console.log(num);*/
-
 //2
 /*let num = [1, 2, 3, 4, 5];
 let a;
@@ -287,7 +265,6 @@ do {
 	num.push(a);
 } while (a != 0);
 console.log(num);*/
-
 //3
 /*
 let num = [10, 20, 32, 40, 55, 90];
@@ -295,7 +272,6 @@ let n = num.filter((x) => {
 	return x % 10 == 0;
 });
 console.log(n);*/
-
 //4
 /*let num = [10, 20, 32, 40, 55, 90];
 const square_func = (x) => {
@@ -303,16 +279,13 @@ const square_func = (x) => {
 };
 let n = num.map(square_func);
 console.log(n);*/
-
 //5
 /*let n = [1, 2, 3, 4, 5];
 let factorial = n.reduce((x, y) => {
 	return x * y;
 });
 console.log(factorial);*/
-
 //alert confirm prompt
-
 /*alert("Enter a no.");
 let a = prompt("Enter a number", "64");
 a = Number.parseInt(a);
@@ -323,10 +296,8 @@ if (write) {
 } else {
 	document.write("no");
 }*/
-
 //chapter 6
 //1
-
 // if (a >= 18) {
 // 	alert("you can drive");
 // } else {
@@ -355,14 +326,12 @@ while (runAgain) {
 
 	console.log(age);
 }*/
-
 // let again = confirm("do  u want to see the prompt again");
 // if (again) {
 // 	document.again(a);
 // } else {
 // 	document.again("no");
 // }
-
 //dom bom
 // console.log(window);
 //can also writw window infront globally used
@@ -371,7 +340,6 @@ window.console.log(window);
 console.log(document);
 console.log(document.body);
 document.body.style.background = "yellow";*/
-
 //doc walk
 /*console.log(document.body.firstChild);
 console.log(document.body.lastChild);
@@ -384,7 +352,6 @@ a = document.body.firstElementChild;
 console.log(a.parentNode);
 console.log(a.firstElementChild.nextSibling);
 */
-
 //element only navigation
 /*	document.body.style.background = "red";
 };
@@ -397,7 +364,6 @@ console.log(a.nextElementSibling);
 console.log(a.firstElementChild);
 console.log(a.lastElementChild);
 */
-
 /*let t = document.body.firstElementChild.firstElementChild;
 console.log(t.rows);
 console.log(t.rows[0].rowIndex);
@@ -405,9 +371,7 @@ console.log(t);
 
 console.log(t.head);
 console.log(t.foot);*/
-
 //portfolio
-
 /*
 const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
 const appendAlert = (message, type) => {
@@ -448,7 +412,6 @@ console.log(document.querySelector(".card").getElementsByTagName("a"));
 console.log(document.getElementsByName("search"));
 */
 //khtm hogya upr tk portfolio wala
-
 //lec37
 /*let id1 = document.getElementById("id1");
 let sp1 = document.getElementById("sp1");
@@ -459,9 +422,7 @@ console.log(sp1.closest(".box"));
 console.log(sp1.closest("#sp1"));
 console.log(id1.contains(sp1));
 console.log(sp1.contains(id1));*/
-
 //ch7 practice set
-
 //1
 // document.getElementsByTagName("ul")[0].firstElementChild.style.color = "red";
 // document.getElementsByTagName("ul")[0].firstElementChild.style.color = "green";
@@ -469,10 +430,8 @@ console.log(sp1.contains(id1));*/
 // Array.from(document.getElementsByTagName("li")).forEach((element) => {
 // 	element.style.background = "cyan";
 // });
-
 //lec41
 // console.log(document.body.textContent);
-
 //lec42
 // let first = document.getElementById("first");
 // let a = first.getAttribute("class");
@@ -483,6 +442,41 @@ console.log(sp1.contains(id1));*/
 ///first.setAttribute("class", "true Sachin");
 // console.log(first.removeAttribute("class"));
 // console.log(first.attributes);
-console.log(first.dataset);
-console.log(first.dataset.game);
-console.log(first.dataset.player);
+// console.log(first.dataset);
+// console.log(first.dataset.game);
+// console.log(first.dataset.player);
+//lec43
+/*let a = document.getElementsByTagName("div")[0];
+//a.innerHTML = a.innerHTML + "<h1>Hello World!!</h1>";
+let div = document.createElement("div");
+div.innerHTML = "<h1>Hello Wor</h1>"*/
+//console.log(a.appendChild(div));
+//console.log(a.append(div));
+//console.log(a.prepend(div));
+// console.log(a.before(div));
+// console.log(a.after(div));
+// console.log(a.replaceWith(div));
+//lec44
+// first.insertAdjacentHTML("beforebegin", '<div class ="test">beforebegin</div>');
+// first.insertAdjacentHTML("beforeend", '<div class ="test">beforend</div>');
+// first.insertAdjacentHTML("afterbegin", '<div class ="test">afterbegin</div>');
+// first.insertAdjacentHTML("afterend", '<div class ="test">afterend</div>');
+// first.insertAdjacentHTML("beforebegin", "<p>Hello </p>");
+// first.insertAdjacentHTML("afterend", '<div class ="test">bye</div>');
+
+//first.remove();
+
+//add remove contains toggle lec 44
+
+//lec45
+// const first = document.getElementById("first");
+// first.classList.add("text-black", "red");
+
+console.log((first.className = "text-black red"));
+console.log(first.classList);
+console.log(first.classList.remove("red"));
+console.log(first.classList.add("red"));
+console.log(first.classList.toggle("red"));
+console.log(first.classList.contains("red"));
+console.log(first.classList.toggle("red"));
+console.log(first.classList.contains("red"));
